@@ -1,0 +1,134 @@
+* {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+}
+#event-header {
+  background-image: linear-gradient(
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.6)
+    ),
+    url("../images/events-heavenly-header.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+h1 {
+  font-size: 60px;
+}
+#event-nav {
+  color: white;
+  position: fixed;
+  left: -250px;
+  top: 0;
+  height: 100%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+#nav-list {
+  height: 100%;
+  width: 250px;
+
+  background-color: #414658;
+  padding: 30px 0 0 30px;
+}
+#nav-list a {
+  display: block;
+  padding-bottom: 30px;
+  font-size: 1.3rem;
+}
+#nav-list a:hover {
+  color: rgba(214, 46, 51, 0.4);
+}
+#nav-toggle {
+  padding-left: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+#singerSection {
+  padding: 100px 0;
+}
+#singerHolder h2 {
+  background-color: #e68285;
+  margin: 0;
+  padding: 10px 0;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+#singerHolder p {
+  background-color: #cccccc;
+  margin: 0;
+  padding: 15px 0;
+}
+#singerHolder p:not(:first-of-type) {
+  display: none;
+}
+#counter {
+  padding: 100px 0;
+  color: white;
+  background: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)),
+    url("../images/invitation-2508607__340.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+#counter .item {
+  border: 1px solid white;
+  padding: 50px 0;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+#contact {
+  padding: 100px 0;
+  color: #414658;
+}
+.social-icon {
+  display: flex;
+  margin-top: 30px;
+}
+.social-icon i {
+  border: 1px solid #414658;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.social-icon i:hover {
+  color: white;
+  border-color: #d62e33;
+  background-color: #d62e33;
+}
+.toggle-edit {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #414658;
+  padding: 0 20px !important;
+}
+#btnUp {
+  position: fixed;
+  bottom: 70px;
+  right: 30px;
+  cursor: pointer;
+  z-index: 9999;
+  display: none;
+}
+.bg-main {
+  background-color: #ff206e !important;
+}
